@@ -1,0 +1,24 @@
+{
+    "image_path": "bloodcells_processed/test/EO_002609.jpg",
+    "filename": "EO_002609.jpg",
+    "dataset_split": "test",
+    "random_seed": 42,
+    "model_depth": 3,
+    "checkpoint_path": "saved_model/cnn_3_layer_best.pth",
+    "checkpoint_epoch": 42,
+    "best_validation_loss": 0.10015280567095965,
+    "true_class": "Eosinophil",
+    "predicted_class": "Eosinophil",
+    "confidence": 1.0,
+    "correct": true,
+    "class_probabilities": {
+        "Basophil": 2.1820838469466253e-09,
+        "Eosinophil": 1.0,
+        "Erythroblast": 3.693729055953554e-08,
+        "Immature Granulocyte": 5.957471386867919e-13,
+        "Lymphocyte": 7.354043589369308e-12,
+        "Monocyte": 2.06259285367473e-13,
+        "Neutrophil": 3.798016623424161e-10,
+        "Platelet": 1.2894090239967682e-09
+    }
+}

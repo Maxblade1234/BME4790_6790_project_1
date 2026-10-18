@@ -1,0 +1,9 @@
+class,2-layer,3-layer
+Basophil,0.9494,0.9794
+Eosinophil,0.9952,0.9984
+Erythroblast,0.9644,0.9774
+Immature Granulocyte,0.8874,0.9423
+Lymphocyte,0.935,0.9691
+Monocyte,0.8967,0.9627
+Neutrophil,0.944,0.9646
+Platelet,0.9947,0.9957

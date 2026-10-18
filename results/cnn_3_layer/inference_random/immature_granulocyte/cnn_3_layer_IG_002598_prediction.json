@@ -1,0 +1,24 @@
+{
+    "image_path": "bloodcells_processed/test/IG_002598.jpg",
+    "filename": "IG_002598.jpg",
+    "dataset_split": "test",
+    "random_seed": 42,
+    "model_depth": 3,
+    "checkpoint_path": "saved_model/cnn_3_layer_best.pth",
+    "checkpoint_epoch": 42,
+    "best_validation_loss": 0.10015280567095965,
+    "true_class": "Immature Granulocyte",
+    "predicted_class": "Immature Granulocyte",
+    "confidence": 0.939596951007843,
+    "correct": true,
+    "class_probabilities": {
+        "Basophil": 0.048967618495225906,
+        "Eosinophil": 0.0043091545812785625,
+        "Erythroblast": 0.001184161752462387,
+        "Immature Granulocyte": 0.939596951007843,
+        "Lymphocyte": 8.432425966020674e-05,
+        "Monocyte": 0.004371152725070715,
+        "Neutrophil": 0.0014865788398310542,
+        "Platelet": 1.0590983201552717e-08
+    }
+}

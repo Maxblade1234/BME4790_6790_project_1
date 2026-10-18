@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+bloodcells_dataset/
+bloodcells_processed/
+.DS_Store

@@ -1,0 +1,54 @@
+Using device: mps
+Training images: 10938
+Validation images: 2735
+Testing images: 3419
+
+=======================================================
+Model: cnn_3_layer
+Device: mps
+Trainable parameters: 94,280
+Optimizer: adam
+Learning rate: 0.001
+Weight decay: 0.0001
+Batch size: 16
+Maximum epochs: 100
+Early stopping patience: 10
+=======================================================
+Epoch 0/100:   0%|          | 0/100 [00:00<?, ?epoch/s]Epoch 1/100:   1%|          | 1/100 [01:30<2:29:24, 90.55s/epoch, train_loss=1.3459, val_loss=0.9821, train_acc=49.9%, val_acc=65.4%]Epoch 2/100:   2%|▏         | 2/100 [02:59<2:25:57, 89.36s/epoch, train_loss=0.7444, val_loss=0.5608, train_acc=73.9%, val_acc=80.6%]Epoch 3/100:   3%|▎         | 3/100 [04:27<2:23:48, 88.96s/epoch, train_loss=0.5275, val_loss=0.4993, train_acc=82.3%, val_acc=82.0%]Epoch 4/100:   4%|▍         | 4/100 [05:56<2:22:18, 88.94s/epoch, train_loss=0.4269, val_loss=0.3853, train_acc=85.9%, val_acc=89.0%]Epoch 5/100:   5%|▌         | 5/100 [07:27<2:21:59, 89.68s/epoch, train_loss=0.3556, val_loss=0.3319, train_acc=89.0%, val_acc=90.3%]Saved 4 Grad-CAM figures to results/cnn_3_layer/gradcam
+Epoch 6/100:   6%|▌         | 6/100 [08:57<2:20:26, 89.64s/epoch, train_loss=0.3213, val_loss=0.4128, train_acc=90.2%, val_acc=85.4%]Epoch 7/100:   7%|▋         | 7/100 [10:25<2:18:25, 89.31s/epoch, train_loss=0.2981, val_loss=0.2585, train_acc=90.7%, val_acc=92.0%]Epoch 8/100:   8%|▊         | 8/100 [11:53<2:16:11, 88.82s/epoch, train_loss=0.2646, val_loss=0.2562, train_acc=91.7%, val_acc=92.2%]Epoch 9/100:   9%|▉         | 9/100 [13:21<2:14:21, 88.59s/epoch, train_loss=0.2590, val_loss=0.2419, train_acc=91.8%, val_acc=91.8%]Epoch 10/100:  10%|█         | 10/100 [14:51<2:13:23, 88.92s/epoch, train_loss=0.2524, val_loss=0.2334, train_acc=92.2%, val_acc=93.4%]Saved 4 Grad-CAM figures to results/cnn_3_layer/gradcam
+Epoch 11/100:  11%|█         | 11/100 [16:20<2:12:02, 89.02s/epoch, train_loss=0.2393, val_loss=0.2593, train_acc=92.6%, val_acc=91.8%]Epoch 12/100:  12%|█▏        | 12/100 [17:49<2:10:30, 88.98s/epoch, train_loss=0.2305, val_loss=0.2210, train_acc=93.2%, val_acc=93.1%]Epoch 13/100:  13%|█▎        | 13/100 [19:18<2:08:59, 88.96s/epoch, train_loss=0.2087, val_loss=0.2060, train_acc=93.5%, val_acc=93.7%]Epoch 14/100:  14%|█▍        | 14/100 [20:47<2:07:35, 89.01s/epoch, train_loss=0.2064, val_loss=0.2035, train_acc=93.7%, val_acc=93.5%]Epoch 15/100:  15%|█▌        | 15/100 [22:17<2:06:33, 89.33s/epoch, train_loss=0.2031, val_loss=0.1880, train_acc=93.6%, val_acc=94.0%]Saved 4 Grad-CAM figures to results/cnn_3_layer/gradcam
+Epoch 16/100:  16%|█▌        | 16/100 [23:46<2:04:53, 89.20s/epoch, train_loss=0.1909, val_loss=0.1973, train_acc=94.3%, val_acc=93.9%]Epoch 17/100:  17%|█▋        | 17/100 [25:15<2:03:15, 89.11s/epoch, train_loss=0.1817, val_loss=0.2048, train_acc=94.6%, val_acc=93.5%]Epoch 18/100:  18%|█▊        | 18/100 [26:44<2:01:39, 89.02s/epoch, train_loss=0.1844, val_loss=0.1956, train_acc=94.2%, val_acc=93.4%]Epoch 19/100:  19%|█▉        | 19/100 [28:13<2:00:11, 89.03s/epoch, train_loss=0.1738, val_loss=0.1541, train_acc=94.6%, val_acc=94.7%]Epoch 20/100:  20%|██        | 20/100 [29:43<1:59:08, 89.35s/epoch, train_loss=0.1700, val_loss=0.1870, train_acc=94.8%, val_acc=94.5%]Saved 4 Grad-CAM figures to results/cnn_3_layer/gradcam
+Epoch 21/100:  21%|██        | 21/100 [31:11<1:57:12, 89.01s/epoch, train_loss=0.1642, val_loss=0.1670, train_acc=94.9%, val_acc=94.6%]Epoch 22/100:  22%|██▏       | 22/100 [32:39<1:55:29, 88.84s/epoch, train_loss=0.1582, val_loss=0.1662, train_acc=95.3%, val_acc=94.8%]Epoch 23/100:  23%|██▎       | 23/100 [34:08<1:53:53, 88.74s/epoch, train_loss=0.1589, val_loss=0.1463, train_acc=95.1%, val_acc=95.4%]Epoch 24/100:  24%|██▍       | 24/100 [35:36<1:52:15, 88.62s/epoch, train_loss=0.1555, val_loss=0.1639, train_acc=95.2%, val_acc=94.8%]Epoch 25/100:  25%|██▌       | 25/100 [37:05<1:50:56, 88.76s/epoch, train_loss=0.1510, val_loss=0.1716, train_acc=95.4%, val_acc=95.2%]Saved 4 Grad-CAM figures to results/cnn_3_layer/gradcam
+Epoch 26/100:  26%|██▌       | 26/100 [38:34<1:49:18, 88.63s/epoch, train_loss=0.1476, val_loss=0.1743, train_acc=95.4%, val_acc=94.9%]Epoch 27/100:  27%|██▋       | 27/100 [40:02<1:47:44, 88.55s/epoch, train_loss=0.1466, val_loss=0.1540, train_acc=95.4%, val_acc=95.1%]Epoch 28/100:  28%|██▊       | 28/100 [41:31<1:46:15, 88.54s/epoch, train_loss=0.1452, val_loss=0.1446, train_acc=95.5%, val_acc=95.5%]Epoch 29/100:  29%|██▉       | 29/100 [42:59<1:44:41, 88.48s/epoch, train_loss=0.1427, val_loss=0.1751, train_acc=95.7%, val_acc=94.7%]Epoch 30/100:  30%|███       | 30/100 [44:28<1:43:21, 88.59s/epoch, train_loss=0.1440, val_loss=0.1828, train_acc=95.5%, val_acc=93.3%]Saved 4 Grad-CAM figures to results/cnn_3_layer/gradcam
+Epoch 31/100:  31%|███       | 31/100 [45:56<1:41:48, 88.52s/epoch, train_loss=0.1427, val_loss=0.1277, train_acc=95.6%, val_acc=96.4%]Epoch 32/100:  32%|███▏      | 32/100 [47:24<1:40:13, 88.43s/epoch, train_loss=0.1339, val_loss=0.1279, train_acc=95.9%, val_acc=96.1%]Epoch 33/100:  33%|███▎      | 33/100 [48:52<1:38:36, 88.31s/epoch, train_loss=0.1361, val_loss=0.1913, train_acc=95.7%, val_acc=93.2%]Epoch 34/100:  34%|███▍      | 34/100 [50:21<1:37:12, 88.37s/epoch, train_loss=0.1361, val_loss=0.1504, train_acc=95.6%, val_acc=95.4%]Epoch 35/100:  35%|███▌      | 35/100 [51:50<1:36:03, 88.67s/epoch, train_loss=0.1259, val_loss=0.1446, train_acc=96.2%, val_acc=95.8%]Saved 4 Grad-CAM figures to results/cnn_3_layer/gradcam
+Epoch 36/100:  36%|███▌      | 36/100 [53:19<1:34:29, 88.59s/epoch, train_loss=0.1310, val_loss=0.1340, train_acc=96.0%, val_acc=95.5%]Epoch 37/100:  37%|███▋      | 37/100 [54:47<1:32:55, 88.50s/epoch, train_loss=0.1251, val_loss=0.1659, train_acc=96.2%, val_acc=94.8%]Epoch 38/100:  38%|███▊      | 38/100 [56:15<1:31:27, 88.51s/epoch, train_loss=0.1353, val_loss=0.1172, train_acc=95.8%, val_acc=96.2%]Epoch 39/100:  39%|███▉      | 39/100 [57:44<1:29:57, 88.49s/epoch, train_loss=0.1224, val_loss=0.1253, train_acc=96.2%, val_acc=96.1%]Epoch 40/100:  40%|████      | 40/100 [59:13<1:28:41, 88.69s/epoch, train_loss=0.1260, val_loss=0.1216, train_acc=96.2%, val_acc=96.5%]Saved 4 Grad-CAM figures to results/cnn_3_layer/gradcam
+Epoch 41/100:  41%|████      | 41/100 [1:00:41<1:27:07, 88.61s/epoch, train_loss=0.1234, val_loss=0.1394, train_acc=96.2%, val_acc=96.0%]Epoch 42/100:  42%|████▏     | 42/100 [1:02:10<1:25:33, 88.51s/epoch, train_loss=0.1229, val_loss=0.1002, train_acc=96.1%, val_acc=96.8%]Epoch 43/100:  43%|████▎     | 43/100 [1:03:38<1:23:58, 88.39s/epoch, train_loss=0.1146, val_loss=0.1131, train_acc=96.5%, val_acc=96.7%]Epoch 44/100:  44%|████▍     | 44/100 [1:05:07<1:22:39, 88.56s/epoch, train_loss=0.1180, val_loss=0.1147, train_acc=96.5%, val_acc=96.6%]Epoch 45/100:  45%|████▌     | 45/100 [1:06:36<1:21:23, 88.79s/epoch, train_loss=0.1171, val_loss=0.1155, train_acc=96.5%, val_acc=96.6%]Saved 4 Grad-CAM figures to results/cnn_3_layer/gradcam
+Epoch 46/100:  46%|████▌     | 46/100 [1:08:04<1:19:46, 88.64s/epoch, train_loss=0.1172, val_loss=0.1261, train_acc=96.4%, val_acc=96.1%]Epoch 47/100:  47%|████▋     | 47/100 [1:09:33<1:18:10, 88.51s/epoch, train_loss=0.1173, val_loss=0.1472, train_acc=96.2%, val_acc=95.6%]Epoch 48/100:  48%|████▊     | 48/100 [1:11:01<1:16:36, 88.39s/epoch, train_loss=0.1175, val_loss=0.1116, train_acc=96.3%, val_acc=96.6%]Epoch 49/100:  49%|████▉     | 49/100 [1:12:30<1:15:15, 88.54s/epoch, train_loss=0.1096, val_loss=0.1187, train_acc=96.6%, val_acc=96.2%]Epoch 50/100:  50%|█████     | 50/100 [1:13:58<1:13:46, 88.53s/epoch, train_loss=0.1139, val_loss=0.1076, train_acc=96.6%, val_acc=96.7%]Saved 4 Grad-CAM figures to results/cnn_3_layer/gradcam
+Epoch 51/100:  51%|█████     | 51/100 [1:15:25<1:12:00, 88.17s/epoch, train_loss=0.1074, val_loss=0.1767, train_acc=96.6%, val_acc=94.2%]Epoch 52/100:  52%|█████▏    | 52/100 [1:16:53<1:10:24, 88.02s/epoch, train_loss=0.1128, val_loss=0.1325, train_acc=96.5%, val_acc=95.8%]                                                                                                                                         Epoch 52/100:  52%|█████▏    | 52/100 [1:16:53<1:10:24, 88.02s/epoch, train_loss=0.1128, val_loss=0.1325, train_acc=96.5%, val_acc=95.8%]Epoch 52/100:  52%|█████▏    | 52/100 [1:16:53<1:10:58, 88.72s/epoch, train_loss=0.1128, val_loss=0.1325, train_acc=96.5%, val_acc=95.8%]
+Early stopping at epoch 52. Best epoch: 42
+Saved training history: results/cnn_3_layer/history.csv
+
+=======================================================
+TRAINING COMPLETE
+Model: cnn_3_layer
+Best epoch: 42
+Best validation loss: 0.1002
+Best validation accuracy: 96.78%
+Best validation macro F1: 0.9670
+Total training time: 76.89 minutes
+Checkpoint: saved_model/cnn_3_layer_best.pth
+Results: results/cnn_3_layer
+=======================================================
+Saved classification report: results/cnn_3_layer/classification_report.csv
+Saved confusion matrix: results/cnn_3_layer/confusion_matrix.png
+
+Evaluation results:
+Accuracy:        0.9737
+Macro Precision: 0.9752
+Macro Recall:    0.9724
+Macro F1:        0.9737
+
+TEST RESULTS
+Accuracy: 97.37%
+Macro F1: 0.9737
+Test loss: 0.0960

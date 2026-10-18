@@ -309,7 +309,9 @@ def save_inference_gradcam(
 def main():
 
     device = torch.device(
-        "cuda" if torch.cuda.is_available() else "cpu"
+        "cuda" if torch.cuda.is_available()
+        else "mps" if torch.backends.mps.is_available()
+        else "cpu"
     )
 
     output_dir = Path(OUTPUT_DIR)

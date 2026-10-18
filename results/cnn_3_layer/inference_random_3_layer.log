@@ -1,0 +1,76 @@
+
+============================================================
+RANDOM TEST IMAGE INFERENCE
+============================================================
+Device: mps
+Model depth: 3 layers
+Random seed: 42
+Selected images: 8
+Output directory: results/inference_random
+
+------------------------------------------------------------
+[1/8] BA_001138.jpg
+True class: Basophil
+Predicted class: Basophil
+Confidence: 99.36%
+Correct: True
+
+------------------------------------------------------------
+[2/8] EO_002609.jpg
+True class: Eosinophil
+Predicted class: Eosinophil
+Confidence: 100.00%
+Correct: True
+
+------------------------------------------------------------
+[3/8] ERB_001254.jpg
+True class: Erythroblast
+Predicted class: Erythroblast
+Confidence: 99.94%
+Correct: True
+
+------------------------------------------------------------
+[4/8] IG_002598.jpg
+True class: Immature Granulocyte
+Predicted class: Immature Granulocyte
+Confidence: 93.96%
+Correct: True
+
+------------------------------------------------------------
+[5/8] LY_001034.jpg
+True class: Lymphocyte
+Predicted class: Lymphocyte
+Confidence: 97.03%
+Correct: True
+
+------------------------------------------------------------
+[6/8] MO_001251.jpg
+True class: Monocyte
+Predicted class: Monocyte
+Confidence: 99.43%
+Correct: True
+
+------------------------------------------------------------
+[7/8] BNE_002806.jpg
+True class: Neutrophil
+Predicted class: Neutrophil
+Confidence: 99.66%
+Correct: True
+
+------------------------------------------------------------
+[8/8] PLATELET_002256.jpg
+True class: Platelet
+Predicted class: Platelet
+Confidence: 99.79%
+Correct: True
+
+============================================================
+FINAL SUMMARY
+============================================================
+Images tested: 8
+Correct predictions: 8
+Accuracy on selected images: 100.00%
+Summary saved to: results/inference_random/summary.csv
+
+Inference completed successfully.
+============================================================

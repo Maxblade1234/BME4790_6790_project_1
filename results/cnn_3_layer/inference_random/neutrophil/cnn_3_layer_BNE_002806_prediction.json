@@ -1,0 +1,24 @@
+{
+    "image_path": "bloodcells_processed/test/BNE_002806.jpg",
+    "filename": "BNE_002806.jpg",
+    "dataset_split": "test",
+    "random_seed": 42,
+    "model_depth": 3,
+    "checkpoint_path": "saved_model/cnn_3_layer_best.pth",
+    "checkpoint_epoch": 42,
+    "best_validation_loss": 0.10015280567095965,
+    "true_class": "Neutrophil",
+    "predicted_class": "Neutrophil",
+    "confidence": 0.9966009259223938,
+    "correct": true,
+    "class_probabilities": {
+        "Basophil": 0.0007766936905682087,
+        "Eosinophil": 0.0004617429804056883,
+        "Erythroblast": 0.0008725093211978674,
+        "Immature Granulocyte": 4.7909910790622234e-05,
+        "Lymphocyte": 0.0007461779750883579,
+        "Monocyte": 4.062423613504507e-06,
+        "Neutrophil": 0.9966009259223938,
+        "Platelet": 0.0004900424391962588
+    }
+}

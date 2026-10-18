@@ -1,0 +1,24 @@
+{
+    "image_path": "bloodcells_processed/test/MO_001251.jpg",
+    "filename": "MO_001251.jpg",
+    "dataset_split": "test",
+    "random_seed": 42,
+    "model_depth": 3,
+    "checkpoint_path": "saved_model/cnn_3_layer_best.pth",
+    "checkpoint_epoch": 42,
+    "best_validation_loss": 0.10015280567095965,
+    "true_class": "Monocyte",
+    "predicted_class": "Monocyte",
+    "confidence": 0.9943453669548035,
+    "correct": true,
+    "class_probabilities": {
+        "Basophil": 1.5240985703712795e-05,
+        "Eosinophil": 0.0002492808271199465,
+        "Erythroblast": 2.434961459130136e-07,
+        "Immature Granulocyte": 0.005311954766511917,
+        "Lymphocyte": 1.3252860071588657e-06,
+        "Monocyte": 0.9943453669548035,
+        "Neutrophil": 7.645330333616585e-05,
+        "Platelet": 9.29138366245752e-08
+    }
+}

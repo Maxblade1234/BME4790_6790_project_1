@@ -1,0 +1,19 @@
+{
+  "model_name": "cnn_3_layer",
+  "num_conv_layers": 3,
+  "trainable_parameters": 94280,
+  "optimizer": "adam",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 16,
+  "max_epochs": 100,
+  "patience": 10,
+  "seed": 42,
+  "best_epoch": 42,
+  "best_val_loss": 0.10015280567095965,
+  "best_val_accuracy": 0.9678244972577696,
+  "best_val_macro_f1": 0.966981639151888,
+  "epochs_completed": 52,
+  "training_time_seconds": 4613.564728666795,
+  "checkpoint_path": "saved_model/cnn_3_layer_best.pth"
+}

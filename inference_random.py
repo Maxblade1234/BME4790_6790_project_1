@@ -40,7 +40,7 @@ from inference import (
 
 # Must match the NUM_CONV_LAYERS setting in inference.py
 # because load_model() uses that module's configuration.
-NUM_CONV_LAYERS = 4
+NUM_CONV_LAYERS = 3
 
 SEED = 42
 
@@ -108,7 +108,9 @@ def select_random_images(dataset, seed=42):
 def main():
 
     device = torch.device(
-        "cuda" if torch.cuda.is_available() else "cpu"
+        "cuda" if torch.cuda.is_available()
+        else "mps" if torch.backends.mps.is_available()
+        else "cpu"
     )
 
     output_dir = Path(OUTPUT_DIR)

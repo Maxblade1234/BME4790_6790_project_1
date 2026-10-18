@@ -1,0 +1,24 @@
+{
+    "image_path": "bloodcells_processed/test/ERB_001254.jpg",
+    "filename": "ERB_001254.jpg",
+    "dataset_split": "test",
+    "random_seed": 42,
+    "model_depth": 3,
+    "checkpoint_path": "saved_model/cnn_3_layer_best.pth",
+    "checkpoint_epoch": 42,
+    "best_validation_loss": 0.10015280567095965,
+    "true_class": "Erythroblast",
+    "predicted_class": "Erythroblast",
+    "confidence": 0.9993738532066345,
+    "correct": true,
+    "class_probabilities": {
+        "Basophil": 6.382747130828648e-08,
+        "Eosinophil": 1.2820304107208358e-07,
+        "Erythroblast": 0.9993738532066345,
+        "Immature Granulocyte": 8.668759983265772e-05,
+        "Lymphocyte": 1.2983679198441678e-07,
+        "Monocyte": 3.335385967417892e-09,
+        "Neutrophil": 0.000539056200068444,
+        "Platelet": 1.442967110815846e-13
+    }
+}

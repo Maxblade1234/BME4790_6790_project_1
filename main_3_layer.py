@@ -32,7 +32,7 @@ PATIENCE = 10
 OPTIMIZER = "adam"
 SEED = 42
 
-NUM_WORKERS = 0
+NUM_WORKERS = 4
 
 GRADCAM_EVERY = 5
 GRADCAM_INDICES = [0, 10, 20, 30]
@@ -47,7 +47,9 @@ def main():
     set_seed(SEED)
 
     device = torch.device(
-        "cuda" if torch.cuda.is_available() else "cpu"
+        "cuda" if torch.cuda.is_available()
+        else "mps" if torch.backends.mps.is_available()
+        else "cpu"
     )
 
     print(f"Using device: {device}")
