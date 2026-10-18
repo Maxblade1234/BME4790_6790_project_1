@@ -1,0 +1,19 @@
+{
+  "model_name": "cnn_2_layer",
+  "num_conv_layers": 2,
+  "trainable_parameters": 19912,
+  "optimizer": "adam",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 16,
+  "max_epochs": 100,
+  "patience": 10,
+  "seed": 42,
+  "best_epoch": 92,
+  "best_val_loss": 0.18030229430965794,
+  "best_val_accuracy": 0.9455210237659963,
+  "best_val_macro_f1": 0.9426213584011849,
+  "epochs_completed": 100,
+  "training_time_seconds": 25101.673278542003,
+  "checkpoint_path": "saved_model/cnn_2_layer_best.pth"
+}
